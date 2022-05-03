@@ -3,3 +3,66 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./assets/fonts/ProximaNova-Semibold.ttf');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./assets/fonts/ProximaNova-SemiboldIt.ttf');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./assets/fonts/ProximaNova-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./assets/fonts/ProximaNova-RegularIt.ttf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./assets/fonts/ProximaNova-Extrabld.ttf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('./assets/fonts/ProximaNova-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-ExtraBold.ttf');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('./assets/fonts/Gilroy-Bold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Bebas Neue';
+  src: url('./assets/fonts/BebasNeueBold.ttf');
+  font-weight: 700;
+  font-style: normal;
+}
