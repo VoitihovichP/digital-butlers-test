@@ -1,15 +1,12 @@
 import styled from 'styled-components';
 
 import Logo from '../../assets/icons/main-logo.svg';
-import HeaderBg from '../../assets/images/header-bg.jpg';
 
 export const HeaderWrapper = styled.header`
   padding: 17px 250px;
   display: flex;
-  gap: 642px;
-  width: 100vw;
+  justify-content: space-between;
   min-height: 80px;
-  background: url(${HeaderBg}) center center/cover no-repeat;
 `;
 
 export const MenuAndLogo = styled.div`

@@ -20,4 +20,9 @@ export const Button = styled.button<MainBtnProps>`
   text-transform: uppercase;
   color: #000000;
   cursor: pointer;
+  transition: 0.3s all;
+  :hover {
+    transform: scale(1.1);
+    background-color: #c0ab39;
+  }
 `;

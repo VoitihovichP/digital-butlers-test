@@ -4,9 +4,12 @@ import WelocomeBg from '../../assets/images/welcome-bg.jpg';
 import VideoBtnBg from '../../assets/images/video-btn-bg.png';
 
 export const WelocmeBlock = styled.section`
-  padding: 128px 250px 60px 250px;
-  min-height: 688px;
+  min-height: 768px;
   background: url(${WelocomeBg}) center center/cover no-repeat;
+`;
+
+export const WelcomeWrapper = styled.div`
+  padding: 128px 250px 60px 250px;
 `;
 
 export const MainContent = styled.div`
