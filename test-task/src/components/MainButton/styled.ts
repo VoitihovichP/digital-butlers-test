@@ -7,6 +7,7 @@ type MainBtnProps = {
 
 export const Button = styled.button<MainBtnProps>`
   padding: ${(props) => (props.isBig ? '29px 50px 26px 76px' : '29px 57px 26px 82px')};
+  min-width: 340px;
   background-color: #fee040;
   background-image: url(${(props) => props.img});
   background-repeat: no-repeat;
