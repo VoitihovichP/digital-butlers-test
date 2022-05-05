@@ -26,4 +26,13 @@ export const Button = styled.button<MainBtnProps>`
     transform: scale(1.1);
     background-color: #c0ab39;
   }
+  @media (max-width: 1200px) {
+    padding: 20px 40px 19px 75px;
+    min-width: 320px;
+  }
+  @media (max-width: 575px) {
+    min-width: 300px;
+    padding-left: 46px;
+    background-position: 33px;
+  }
 `;

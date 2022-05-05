@@ -30,4 +30,15 @@ export const ListItem = styled.li`
     border-radius: 50%;
     opacity: 1;
   }
+  @media (max-width: 1300px) {
+    padding-left: 40px;
+    :before {
+      top: 0;
+      width: 25px;
+      height: 25px;
+    }
+  }
+  @media (max-width: 575px) {
+    font-size: 16px;
+  }
 `;
