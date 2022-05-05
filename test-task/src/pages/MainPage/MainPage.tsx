@@ -1,6 +1,7 @@
 import React, { FC } from 'react';
 import BenefitsSection from '../../containers/BenefitsSection/BenefitsSection';
 import ServicesSection from '../../containers/ServicesSection/ServicesSection';
+import StepOneSection from '../../containers/StepOneSection/StepOneSection';
 import WelcomeSection from '../../containers/WelcomeSection/WelcomeSection';
 
 const MainPage: FC = () => {
@@ -9,6 +10,7 @@ const MainPage: FC = () => {
       <WelcomeSection />
       <BenefitsSection />
       <ServicesSection />
+      <StepOneSection />
     </main>
   );
 };
